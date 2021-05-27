@@ -1,0 +1,79 @@
+body{
+    font-family: 'KoHo', sans-serif;
+   
+}
+#enno{
+    margin-left: 220px;
+    background-color: aqua;
+    border: 2px dashed black;
+    border-radius: 2px 10px;
+}
+ h2{
+        margin-top: 0px;
+  
+    }
+    img{
+        margin-top: 5px;
+    }
+    nav{
+        text-align: center;
+        height: 100%;
+        width: 250px;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, 0.5); 
+        border-radius: 2px 10px;
+        box-shadow: 5px 7px 10px rgb(0, 0, 0);
+        margin-left: -46px;
+        position: fixed;
+    }
+    nav ul{
+            position: relative;
+            list-style: none;
+        }
+        nav ul li a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: black;
+            padding: 7px 20px;
+            height: 40px;
+            transition: 0.5s ease;
+            border-radius: 5px 30px;
+        }
+        nav ul li a:hover{ 
+            background-color: rgb(171, 76, 248);
+            color: white;
+            border: 2px solid rgb(2, 2, 2);
+        }
+
+     nav ul li a.active{
+         border: 2px solid black;
+         background-color: rgb(244, 247, 88); 
+     }
+  
+     .box{
+        border: 2px dotted rgb(51, 255, 0);
+        margin-left: 220px;
+        text-align: center;
+        bottom: 5px;
+        margin-top: 4px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+    .cricle{
+        border: 2px dotted rgb(51, 255, 0);
+        margin-left: 220px;
+        text-align: center;
+        bottom: 5px;
+        margin-top: 4px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+  
+     
